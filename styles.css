@@ -1,5 +1,5 @@
 h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 200px;
     margin-top: 20px;
@@ -8,14 +8,15 @@ h1{
 .bota, .bote{
     text-align: center;
     border-radius: 10pc;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: rgb(81, 170, 81);
     transition: 0.2s;
     margin-top: 100px;
     border-color: rgba(240, 248, 255, 0);
-    box-shadow: inset 0 0 1em rgb(53, 53, 53);
-
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     
 }
 .bote{
@@ -53,8 +54,4 @@ body{
 .zerar:hover{
     background-color: rgb(39, 39, 39);
     box-shadow:0 0 1em rgb(53, 53, 53);
-}
-.bote:active, .bota:active, .zerar:active {
-    width: 70px;
-    height: 70px;
 }
